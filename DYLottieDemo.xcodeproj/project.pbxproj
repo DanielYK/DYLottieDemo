@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1081B3FFD38ED3BFC95D057D /* libPods-DYLottieDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02815420159D4E3A58B78CF7 /* libPods-DYLottieDemo.a */; };
+		3721C7241F4C015400396D38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3721C7231F4C015400396D38 /* main.m */; };
+		3721C7271F4C015400396D38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3721C7261F4C015400396D38 /* AppDelegate.m */; };
+		3721C72A1F4C015400396D38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3721C7291F4C015400396D38 /* ViewController.m */; };
+		3721C72D1F4C015400396D38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3721C72B1F4C015400396D38 /* Main.storyboard */; };
+		3721C72F1F4C015400396D38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3721C72E1F4C015400396D38 /* Assets.xcassets */; };
+		3721C7321F4C015400396D38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3721C7301F4C015400396D38 /* LaunchScreen.storyboard */; };
+		3721C73D1F4C015400396D38 /* DYLottieDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3721C73C1F4C015400396D38 /* DYLottieDemoTests.m */; };
+		3721C7481F4C015400396D38 /* DYLottieDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3721C7471F4C015400396D38 /* DYLottieDemoUITests.m */; };
+		3721C7571F4C05FA00396D38 /* DYAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3721C7561F4C05FA00396D38 /* DYAnimationVC.m */; };
+		3721C75A1F4C1EC300396D38 /* F.json in Resources */ = {isa = PBXBuildFile; fileRef = 3721C7591F4C1EC300396D38 /* F.json */; };
+		3721C75C1F4C1ECD00396D38 /* G.json in Resources */ = {isa = PBXBuildFile; fileRef = 3721C75B1F4C1ECD00396D38 /* G.json */; };
+		3721C75E1F4C1F0200396D38 /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = 3721C75D1F4C1F0200396D38 /* W.json */; };
+		3721C7601F4C1F1300396D38 /* HamburgerArrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 3721C75F1F4C1F1300396D38 /* HamburgerArrow.json */; };
+		3721C7621F4C1F1D00396D38 /* LottieLogo2.json in Resources */ = {isa = PBXBuildFile; fileRef = 3721C7611F4C1F1D00396D38 /* LottieLogo2.json */; };
+		3721C7641F4C1F2600396D38 /* PinJump.json in Resources */ = {isa = PBXBuildFile; fileRef = 3721C7631F4C1F2600396D38 /* PinJump.json */; };
+		3721C7661F4C1F3300396D38 /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = 3721C7651F4C1F3300396D38 /* TwitterHeart.json */; };
+		3721C7681F4C1F4100396D38 /* vcTransition1.json in Resources */ = {isa = PBXBuildFile; fileRef = 3721C7671F4C1F4100396D38 /* vcTransition1.json */; };
+		3721C76A1F4C1F4F00396D38 /* Watermelon.json in Resources */ = {isa = PBXBuildFile; fileRef = 3721C7691F4C1F4F00396D38 /* Watermelon.json */; };
+		3721C76C1F4C22EF00396D38 /* Q.json in Resources */ = {isa = PBXBuildFile; fileRef = 3721C76B1F4C22EF00396D38 /* Q.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3721C7391F4C015400396D38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3721C7171F4C015400396D38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3721C71E1F4C015400396D38;
+			remoteInfo = DYLottieDemo;
+		};
+		3721C7441F4C015400396D38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3721C7171F4C015400396D38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3721C71E1F4C015400396D38;
+			remoteInfo = DYLottieDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02815420159D4E3A58B78CF7 /* libPods-DYLottieDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYLottieDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170C5ACF866235147261094A /* Pods-DYLottieDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYLottieDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYLottieDemo/Pods-DYLottieDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3721C71F1F4C015400396D38 /* DYLottieDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYLottieDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3721C7231F4C015400396D38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3721C7251F4C015400396D38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3721C7261F4C015400396D38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3721C7281F4C015400396D38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3721C7291F4C015400396D38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3721C72C1F4C015400396D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3721C72E1F4C015400396D38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3721C7311F4C015400396D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3721C7331F4C015400396D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3721C7381F4C015400396D38 /* DYLottieDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYLottieDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3721C73C1F4C015400396D38 /* DYLottieDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYLottieDemoTests.m; sourceTree = "<group>"; };
+		3721C73E1F4C015400396D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3721C7431F4C015400396D38 /* DYLottieDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYLottieDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3721C7471F4C015400396D38 /* DYLottieDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYLottieDemoUITests.m; sourceTree = "<group>"; };
+		3721C7491F4C015400396D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3721C7551F4C05FA00396D38 /* DYAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYAnimationVC.h; sourceTree = "<group>"; };
+		3721C7561F4C05FA00396D38 /* DYAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYAnimationVC.m; sourceTree = "<group>"; };
+		3721C7591F4C1EC300396D38 /* F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = F.json; sourceTree = "<group>"; };
+		3721C75B1F4C1ECD00396D38 /* G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = G.json; sourceTree = "<group>"; };
+		3721C75D1F4C1F0200396D38 /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		3721C75F1F4C1F1300396D38 /* HamburgerArrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HamburgerArrow.json; sourceTree = "<group>"; };
+		3721C7611F4C1F1D00396D38 /* LottieLogo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo2.json; sourceTree = "<group>"; };
+		3721C7631F4C1F2600396D38 /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
+		3721C7651F4C1F3300396D38 /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		3721C7671F4C1F4100396D38 /* vcTransition1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition1.json; sourceTree = "<group>"; };
+		3721C7691F4C1F4F00396D38 /* Watermelon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Watermelon.json; sourceTree = "<group>"; };
+		3721C76B1F4C22EF00396D38 /* Q.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Q.json; sourceTree = "<group>"; };
+		5828FDAA895570E7BE492448 /* Pods-DYLottieDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYLottieDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYLottieDemo/Pods-DYLottieDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3721C71C1F4C015400396D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1081B3FFD38ED3BFC95D057D /* libPods-DYLottieDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3721C7351F4C015400396D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3721C7401F4C015400396D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3721C7161F4C015400396D38 = {
+			isa = PBXGroup;
+			children = (
+				3721C7211F4C015400396D38 /* DYLottieDemo */,
+				3721C73B1F4C015400396D38 /* DYLottieDemoTests */,
+				3721C7461F4C015400396D38 /* DYLottieDemoUITests */,
+				3721C7201F4C015400396D38 /* Products */,
+				BC16E4743A9C9EDAB769154E /* Pods */,
+				3BF32A5D5AB5AF8A7A565C50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3721C7201F4C015400396D38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3721C71F1F4C015400396D38 /* DYLottieDemo.app */,
+				3721C7381F4C015400396D38 /* DYLottieDemoTests.xctest */,
+				3721C7431F4C015400396D38 /* DYLottieDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3721C7211F4C015400396D38 /* DYLottieDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3721C7251F4C015400396D38 /* AppDelegate.h */,
+				3721C7261F4C015400396D38 /* AppDelegate.m */,
+				3721C7281F4C015400396D38 /* ViewController.h */,
+				3721C7291F4C015400396D38 /* ViewController.m */,
+				3721C7551F4C05FA00396D38 /* DYAnimationVC.h */,
+				3721C7561F4C05FA00396D38 /* DYAnimationVC.m */,
+				3721C72B1F4C015400396D38 /* Main.storyboard */,
+				3721C72E1F4C015400396D38 /* Assets.xcassets */,
+				3721C7301F4C015400396D38 /* LaunchScreen.storyboard */,
+				3721C7331F4C015400396D38 /* Info.plist */,
+				3721C7221F4C015400396D38 /* Supporting Files */,
+			);
+			path = DYLottieDemo;
+			sourceTree = "<group>";
+		};
+		3721C7221F4C015400396D38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3721C7581F4C1EB500396D38 /* jsonfile */,
+				3721C7231F4C015400396D38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3721C73B1F4C015400396D38 /* DYLottieDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3721C73C1F4C015400396D38 /* DYLottieDemoTests.m */,
+				3721C73E1F4C015400396D38 /* Info.plist */,
+			);
+			path = DYLottieDemoTests;
+			sourceTree = "<group>";
+		};
+		3721C7461F4C015400396D38 /* DYLottieDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3721C7471F4C015400396D38 /* DYLottieDemoUITests.m */,
+				3721C7491F4C015400396D38 /* Info.plist */,
+			);
+			path = DYLottieDemoUITests;
+			sourceTree = "<group>";
+		};
+		3721C7581F4C1EB500396D38 /* jsonfile */ = {
+			isa = PBXGroup;
+			children = (
+				3721C7591F4C1EC300396D38 /* F.json */,
+				3721C75B1F4C1ECD00396D38 /* G.json */,
+				3721C76B1F4C22EF00396D38 /* Q.json */,
+				3721C75D1F4C1F0200396D38 /* W.json */,
+				3721C75F1F4C1F1300396D38 /* HamburgerArrow.json */,
+				3721C7611F4C1F1D00396D38 /* LottieLogo2.json */,
+				3721C7631F4C1F2600396D38 /* PinJump.json */,
+				3721C7651F4C1F3300396D38 /* TwitterHeart.json */,
+				3721C7671F4C1F4100396D38 /* vcTransition1.json */,
+				3721C7691F4C1F4F00396D38 /* Watermelon.json */,
+			);
+			path = jsonfile;
+			sourceTree = "<group>";
+		};
+		3BF32A5D5AB5AF8A7A565C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02815420159D4E3A58B78CF7 /* libPods-DYLottieDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC16E4743A9C9EDAB769154E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				170C5ACF866235147261094A /* Pods-DYLottieDemo.debug.xcconfig */,
+				5828FDAA895570E7BE492448 /* Pods-DYLottieDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3721C71E1F4C015400396D38 /* DYLottieDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3721C74C1F4C015400396D38 /* Build configuration list for PBXNativeTarget "DYLottieDemo" */;
+			buildPhases = (
+				E6C71D8D0C2F6E823484FA6E /* [CP] Check Pods Manifest.lock */,
+				3721C71B1F4C015400396D38 /* Sources */,
+				3721C71C1F4C015400396D38 /* Frameworks */,
+				3721C71D1F4C015400396D38 /* Resources */,
+				17BBEDA87EA47CB762779B66 /* [CP] Embed Pods Frameworks */,
+				FE6A9B04EDFB74619FF4BAE2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYLottieDemo;
+			productName = DYLottieDemo;
+			productReference = 3721C71F1F4C015400396D38 /* DYLottieDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3721C7371F4C015400396D38 /* DYLottieDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3721C74F1F4C015400396D38 /* Build configuration list for PBXNativeTarget "DYLottieDemoTests" */;
+			buildPhases = (
+				3721C7341F4C015400396D38 /* Sources */,
+				3721C7351F4C015400396D38 /* Frameworks */,
+				3721C7361F4C015400396D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3721C73A1F4C015400396D38 /* PBXTargetDependency */,
+			);
+			name = DYLottieDemoTests;
+			productName = DYLottieDemoTests;
+			productReference = 3721C7381F4C015400396D38 /* DYLottieDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3721C7421F4C015400396D38 /* DYLottieDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3721C7521F4C015400396D38 /* Build configuration list for PBXNativeTarget "DYLottieDemoUITests" */;
+			buildPhases = (
+				3721C73F1F4C015400396D38 /* Sources */,
+				3721C7401F4C015400396D38 /* Frameworks */,
+				3721C7411F4C015400396D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3721C7451F4C015400396D38 /* PBXTargetDependency */,
+			);
+			name = DYLottieDemoUITests;
+			productName = DYLottieDemoUITests;
+			productReference = 3721C7431F4C015400396D38 /* DYLottieDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3721C7171F4C015400396D38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "姚隆康";
+				TargetAttributes = {
+					3721C71E1F4C015400396D38 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3721C7371F4C015400396D38 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3721C71E1F4C015400396D38;
+					};
+					3721C7421F4C015400396D38 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3721C71E1F4C015400396D38;
+					};
+				};
+			};
+			buildConfigurationList = 3721C71A1F4C015400396D38 /* Build configuration list for PBXProject "DYLottieDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3721C7161F4C015400396D38;
+			productRefGroup = 3721C7201F4C015400396D38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3721C71E1F4C015400396D38 /* DYLottieDemo */,
+				3721C7371F4C015400396D38 /* DYLottieDemoTests */,
+				3721C7421F4C015400396D38 /* DYLottieDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3721C71D1F4C015400396D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3721C76C1F4C22EF00396D38 /* Q.json in Resources */,
+				3721C75C1F4C1ECD00396D38 /* G.json in Resources */,
+				3721C76A1F4C1F4F00396D38 /* Watermelon.json in Resources */,
+				3721C75A1F4C1EC300396D38 /* F.json in Resources */,
+				3721C7661F4C1F3300396D38 /* TwitterHeart.json in Resources */,
+				3721C7641F4C1F2600396D38 /* PinJump.json in Resources */,
+				3721C7681F4C1F4100396D38 /* vcTransition1.json in Resources */,
+				3721C7321F4C015400396D38 /* LaunchScreen.storyboard in Resources */,
+				3721C75E1F4C1F0200396D38 /* W.json in Resources */,
+				3721C7621F4C1F1D00396D38 /* LottieLogo2.json in Resources */,
+				3721C7601F4C1F1300396D38 /* HamburgerArrow.json in Resources */,
+				3721C72F1F4C015400396D38 /* Assets.xcassets in Resources */,
+				3721C72D1F4C015400396D38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3721C7361F4C015400396D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3721C7411F4C015400396D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17BBEDA87EA47CB762779B66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYLottieDemo/Pods-DYLottieDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C71D8D0C2F6E823484FA6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DYLottieDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE6A9B04EDFB74619FF4BAE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYLottieDemo/Pods-DYLottieDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3721C71B1F4C015400396D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3721C7571F4C05FA00396D38 /* DYAnimationVC.m in Sources */,
+				3721C72A1F4C015400396D38 /* ViewController.m in Sources */,
+				3721C7271F4C015400396D38 /* AppDelegate.m in Sources */,
+				3721C7241F4C015400396D38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3721C7341F4C015400396D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3721C73D1F4C015400396D38 /* DYLottieDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3721C73F1F4C015400396D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3721C7481F4C015400396D38 /* DYLottieDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3721C73A1F4C015400396D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3721C71E1F4C015400396D38 /* DYLottieDemo */;
+			targetProxy = 3721C7391F4C015400396D38 /* PBXContainerItemProxy */;
+		};
+		3721C7451F4C015400396D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3721C71E1F4C015400396D38 /* DYLottieDemo */;
+			targetProxy = 3721C7441F4C015400396D38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3721C72B1F4C015400396D38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3721C72C1F4C015400396D38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3721C7301F4C015400396D38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3721C7311F4C015400396D38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3721C74A1F4C015400396D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3721C74B1F4C015400396D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3721C74D1F4C015400396D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170C5ACF866235147261094A /* Pods-DYLottieDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYLottieDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.DYLottieDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3721C74E1F4C015400396D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5828FDAA895570E7BE492448 /* Pods-DYLottieDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYLottieDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.DYLottieDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3721C7501F4C015400396D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYLottieDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.DYLottieDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYLottieDemo.app/DYLottieDemo";
+			};
+			name = Debug;
+		};
+		3721C7511F4C015400396D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYLottieDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.DYLottieDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYLottieDemo.app/DYLottieDemo";
+			};
+			name = Release;
+		};
+		3721C7531F4C015400396D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYLottieDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.DYLottieDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYLottieDemo;
+			};
+			name = Debug;
+		};
+		3721C7541F4C015400396D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYLottieDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.DYLottieDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYLottieDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3721C71A1F4C015400396D38 /* Build configuration list for PBXProject "DYLottieDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3721C74A1F4C015400396D38 /* Debug */,
+				3721C74B1F4C015400396D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3721C74C1F4C015400396D38 /* Build configuration list for PBXNativeTarget "DYLottieDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3721C74D1F4C015400396D38 /* Debug */,
+				3721C74E1F4C015400396D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3721C74F1F4C015400396D38 /* Build configuration list for PBXNativeTarget "DYLottieDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3721C7501F4C015400396D38 /* Debug */,
+				3721C7511F4C015400396D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3721C7521F4C015400396D38 /* Build configuration list for PBXNativeTarget "DYLottieDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3721C7531F4C015400396D38 /* Debug */,
+				3721C7541F4C015400396D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3721C7171F4C015400396D38 /* Project object */;
+}
